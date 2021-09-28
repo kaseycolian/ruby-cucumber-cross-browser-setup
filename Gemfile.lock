@@ -105,6 +105,7 @@ GEM
       cucumber-messages (~> 12.1, >= 12.1.1)
     diff-lcs (1.3)
     erubi (1.9.0)
+    ffi (1.13.1)
     ffi (1.13.1-x64-mingw32)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -121,13 +122,14 @@ GEM
     middleware (0.1.0)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
-    mini_portile2 (2.4.0)
     minitest (5.14.1)
     multi_json (1.10.1)
     multi_test (0.1.2)
     nio4r (2.5.2)
-    nokogiri (1.10.9-x64-mingw32)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.12.5-x64-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x86_64-linux)
+      racc (~> 1.4)
     protobuf-cucumber (3.10.8)
       activesupport (>= 3.2)
       middleware
@@ -137,6 +139,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (4.0.5)
+    racc (1.5.2)
     rack (2.2.2)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -209,6 +212,7 @@ GEM
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   capybara
